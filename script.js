@@ -63,7 +63,11 @@ function generatePassword() {
     alert("You must choose at least one character type.")
   }
 
-
+//generate password
+  while(Password.length < PasswordLength) {
+    Password += PasswordCharacters.charAt(Math.floor(Math.random() * PasswordCharacters.length));
+  }
+  return Password
 
 }
 

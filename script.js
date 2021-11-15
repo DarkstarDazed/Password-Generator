@@ -42,6 +42,11 @@ function generatePassword() {
     alert("Password can be no more than 128 characters.")
     return
   }
+// prompt for lowercase characters
+  var LowercaseCheck = confirm("Would you like to include lowercase characters?")
+  if(LowercaseCheck) PasswordCharacters += lowercase;
+
+// prompt for uppercase characters
 
 
 

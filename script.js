@@ -54,6 +54,10 @@ function generatePassword() {
   var NumberCheck = confirm("Would you like to include numbers?")
   if(NumberCheck) PasswordCharacters += numbers;
 
+//prompt for special characters
+  var SpecialCheck = confirm("Would you like to include special characters?")
+  if(SpecialCheck) PasswordCharacters += special;
+
 
 
 }

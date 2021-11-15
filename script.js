@@ -58,6 +58,11 @@ function generatePassword() {
   var SpecialCheck = confirm("Would you like to include special characters?")
   if(SpecialCheck) PasswordCharacters += special;
 
+// checking for at least one character type
+  if(PasswordCharacters.length == 0) {
+    alert("You must choose at least one character type.")
+  }
+
 
 
 }

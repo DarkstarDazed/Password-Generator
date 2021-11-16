@@ -1,7 +1,7 @@
 # Password-Generator_hw3
 
 ## Description:
-
+For this assignment we were tasked with making a password generator that adhered to a certain set of parameters. To call those parameters, I made four variables containing said parameters to be able to call them later on. From there I started making my prompts for each variable to help the user decide exactly which parameters appeared in the password. In doing so, I added if statements to include the content of each variable. My next step was adding an if statement in case none of the parameters were checked to prompt the user to select at least one of the character types. I finished off with a while loop to generate a random password containing the selected parameters for each character type at the length the user chose. 
 
 
 ## Screenshot:
@@ -9,4 +9,4 @@
 
 
 ## Deployed Application:
-[a link](https://mediazjr.github.io/Password-Generator_hw3/)
+[Password Generator](https://mediazjr.github.io/Password-Generator_hw3/)
